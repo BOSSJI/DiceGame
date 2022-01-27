@@ -6,12 +6,12 @@ var number2 = Math.floor(Math.random() * 6 + 1);
         number2 = Math.floor(Math.random() * 6 + 1);
       }
 
-      var randomImageSource1 = "images/dice" + number1 + ".png";
+      var randomImageSource1 = "dice" + number1 + ".png";
 
       var image1 = document.querySelector(".img1");
       image1.setAttribute("src", randomImageSource1);
 
-      var randomImageSource2 = "images/dice" + number2 + ".png";
+      var randomImageSource2 = "dice" + number2 + ".png";
 
       var image2 = document.querySelector(".img2");
       image2.setAttribute("src", randomImageSource2);
